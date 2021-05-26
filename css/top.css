@@ -1,0 +1,72 @@
+.inbox:first-child{
+    padding-top: 120px;
+}
+
+header .inbox{
+    width: 80%;
+    margin: auto;
+}
+
+header .inbox .notes{
+    height: 55vh;
+    background-image: url("../images/alternator.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header .inbox .header-text{
+    height: 35%;
+}
+
+header .inbox .firstnote {
+    width: 30%;
+    height: 100%;
+}
+
+header .inbox .right-box {
+    height: 55vh;
+    width: 47%;
+    display: flex;
+    backdrop-filter: blur(7px);
+}
+
+
+header .inbox .secondnote {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header .inbox .secondnote .secondnote-content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.notes h3{
+    font-size: 4.5em;
+    font-weight: lighter;
+    z-index: 9998;
+}
+
+.header-text{
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 5.4em;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.header-text h2 {
+    font-size: 1.25em;
+    letter-spacing: 0.02rem;
+    margin: 0;
+}
+

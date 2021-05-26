@@ -1,0 +1,100 @@
+.contacts{
+    padding-top: 120px;
+    display: flex;
+    height: 100vh;
+    margin-left: 10%;
+}
+
+.contacts-info{
+    width: 40%;
+}
+
+.contacts-form{
+    width: 50%;
+    background-color: #E5E5E5;
+}
+
+.grey-back{
+    width: 10%;
+    background-color: #E5E5E5;
+}
+
+.contacts-info h2 {
+    margin-top: 50px;
+    font-size: 3.5em;
+    letter-spacing: 0.02rem;
+}
+
+.contacts-info p{
+    font-size: 1.2em;
+    letter-spacing: 0.04rem;
+    margin-bottom: 5px;
+}
+
+.contacts-info .bolder-text{
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 35px ;
+}
+
+.contacts-form{
+    padding: 0 1.2% 0 10%;
+}
+
+.contacts-form p{
+    font-size: 3em;
+    letter-spacing: 0.04rem;
+    margin-top: 65px;
+}
+
+.contacts-form input{
+    width: 100%;
+    border: none;
+    border-bottom: solid gray 3px;
+    background-color: inherit;
+    font-weight: bold;
+    text-indent: 5px;
+    font-size: 1em;
+    margin-top: 20px;
+
+}
+
+.contacts-form textarea{
+    margin-top: 20px;
+    width: 100%;
+    background-color: inherit;
+    border: solid gray 3px;
+    font-weight: bold;
+    text-indent: 5px;
+    font-size: 1em;
+}
+
+.contacts-form button{
+    margin-top: 20px;
+    float: right;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.contacts-form button:hover{
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+*:focus {
+    outline: none;
+}
+
+.icon-text{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon-text img {
+    margin-right: 10px;
+    height: 25px;
+    width: auto;
+}
