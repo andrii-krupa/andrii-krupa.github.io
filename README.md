@@ -1,1 +1,1 @@
-# andrii-krupa.github.io
+https://andrii-krupa.github.io/
